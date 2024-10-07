@@ -16,10 +16,10 @@ header{
     align-items: center;
     padding: 30px 0;
     background: rgb(12,4,4);
-    background: linear-gradient(180deg, rgba(12,4,4,1) 0%, rgba(9,9,121,0) 100%);
+    background: linear-gradient(180deg, rgb(22, 16, 16) 0%, rgba(9,9,121,0) 100%);
     z-index: 5;
     right: 0;
-    position: absolute;
+    position: relative;
     left: 0;
     top: 0;
 }
@@ -28,6 +28,7 @@ header{
     width: 100%;
     position: absolute;
     top: 0;
+    filter:brightness(60%)
 }
 
 
@@ -36,7 +37,7 @@ header{
     width: 856px;
     height:auto;
     margin-left: 19%;
-    margin-top:22%;
+    margin-top:16%;
 }
 
 .menu{
@@ -47,7 +48,7 @@ header{
 
 .menu a{
     font-size: 24px;
-    text-decoration: none;
+    text-decoration:none;
     color: white;
     padding: 50px;
 
@@ -56,9 +57,8 @@ header{
 
 .avaliacao_hotel{
     position: relative;
-    top: 900px;
+    top: 800px;
     margin-left: 23%;
     font-size: x-large;
     color: darkred;
-
 }
