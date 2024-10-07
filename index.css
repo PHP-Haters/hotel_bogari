@@ -10,11 +10,9 @@
 
 header {
     height: auto;
-    padding: 0 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 30px 0;
     background: rgb(12,4,4);
     background: linear-gradient(180deg, rgb(22, 16, 16) 0%, rgba(9,9,121,0) 100%);
     z-index: 5;
@@ -32,12 +30,13 @@ header {
     z-index: 1;
 }
 
-
 .logo{
     position: absolute;
-    width: 50%;
+    top: 0;
+    left: 0;
     margin-left: 25%;
     margin-top: 15%;
+    width: 50%;
     z-index: 2;
 }
 
@@ -57,6 +56,6 @@ header {
     position: relative;
     top: 800px;
     margin-left: 23%;
-    font-size: x-large;
+    font-size: 15px;
     color: darkred;
 }
