@@ -65,10 +65,11 @@ nav {
 .images1 {
     margin-top: 40px;
     display: flex;
+    width: 100%;
 }
 
-.sobre {
-    width: 775px;
+.images1 img {
+    width: 50%;
     height: 600px;
     object-fit: cover;
     object-position: 20%;
@@ -83,17 +84,18 @@ nav {
 
 .images2 {
     display: flex;
+    width: 100%;
 }
 
-.lazer {
-    width: 775px;
+.images2 img {
+    width: 50%;
     height: 600px;
     object-fit: cover;
     object-position: 20%;
 }
 
 .cafedamanha {
-    width: 744px;
+    width: 50%;
     height: 600px;
     object-fit: cover;
     object-position: 20%;
