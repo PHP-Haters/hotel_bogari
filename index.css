@@ -8,9 +8,6 @@
     font-family: "Montserrat", sans-serif;
 }
 
-header {
-
-}
 nav {
     display: flex;
     justify-content: space-around;
@@ -64,3 +61,41 @@ nav {
     color: white;
     padding: 50px;
 }
+
+.images1 {
+    margin-top: 40px;
+    display: flex;
+}
+
+.sobre {
+    width: 775px;
+    height: 600px;
+    object-fit: cover;
+    object-position: 20%;
+}
+
+.apartamentos {
+    width: 744px;
+    height: 600px;
+    object-fit: cover;
+    object-position: 20%;
+}
+
+.images2 {
+    display: flex;
+}
+
+.lazer {
+    width: 775px;
+    height: 600px;
+    object-fit: cover;
+    object-position: 20%;
+}
+
+.cafedamanha {
+    width: 744px;
+    height: 600px;
+    object-fit: cover;
+    object-position: 20%;
+}
+
