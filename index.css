@@ -105,6 +105,19 @@ nav {
     object-position: 20%;
 }
 
+.sobre:hover {
+    filter: brightness(0.5);
+}
+.apartamentos:hover {
+    filter: brightness(0.5);
+}
+.lazer:hover {
+    filter: brightness(0.5);
+}
+.cafedamanha:hover {
+    filter: brightness(0.5);
+}
+
 footer {
     height: 250px;
     width: 100%;
