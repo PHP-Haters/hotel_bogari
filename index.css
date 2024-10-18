@@ -140,3 +140,8 @@ footer p {
     margin-bottom: 15px;
     font-size: 15px;
 }
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
