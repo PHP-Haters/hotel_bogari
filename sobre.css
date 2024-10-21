@@ -28,3 +28,15 @@ nav {
     object-fit: cover;
     object-position: 20%;
 }
+
+.menu{
+    padding: 20px 0;
+    z-index: 3;
+}
+
+.menu a{
+    font-size: 20px;
+    text-decoration:none;
+    color: white;
+    padding: 15px 50px;
+}
