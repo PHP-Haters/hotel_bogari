@@ -34,9 +34,26 @@ nav {
     z-index: 3;
 }
 
-.menu a{
+.menu a {
     font-size: 20px;
     text-decoration:none;
     color: white;
     padding: 15px 50px;
 }
+
+section {
+    display: flex;
+    margin: 70px;
+}
+
+.texto {
+    width: 50%;
+    padding: 40px;
+}
+
+.titulo {
+    margin-bottom: 20px;
+    font-weight: bold;
+} 
+
+
