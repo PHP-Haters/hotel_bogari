@@ -32,3 +32,33 @@ nav {
     color: rgb(255, 255, 255);
     padding: 15px 50px;
 }
+
+section {
+    display: grid;
+    background-color: #130D0A;
+    color: white;
+    padding: 60px;
+    width: 400px;
+    height: 500px;
+    margin-top: 95px;
+    margin-left: 200px;
+}
+
+section h4 {
+    margin-bottom: 20px;
+}
+
+section div {
+    margin-bottom: 40px;
+}
+
+section p {
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+section a {
+    color: white;
+    text-decoration: none;
+}
+
