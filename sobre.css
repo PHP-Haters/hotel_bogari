@@ -48,8 +48,9 @@ section {
 
 .texto {
     width: 50%;
-    padding: 40px;
+    padding: 60px;
     margin-top: 50px;
+    font-size: 22px;
 }
 
 .image {
@@ -57,7 +58,7 @@ section {
 }
 
 .titulo {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-weight: bold;
 } 
 
