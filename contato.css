@@ -36,6 +36,12 @@ nav {
     padding: 15px 50px;
 }
 
+.logo {
+    display: flex;
+    margin-left: 300px;
+    padding: 70px;
+}
+
 h1 {
     text-align: center;
 }
