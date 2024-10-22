@@ -49,6 +49,11 @@ section {
 .texto {
     width: 50%;
     padding: 40px;
+    margin-top: 50px;
+}
+
+.image {
+    padding: 25px;
 }
 
 .titulo {
