@@ -46,6 +46,10 @@ h1 {
     text-align: center;
 }
 
+.inteira {
+    display: flex;
+}
+
 section {
     display: grid;
     background-color: #130D0A;
@@ -53,8 +57,6 @@ section {
     padding: 60px;
     width: 400px;
     height: 500px;
-    margin-top: 95px;
-    margin-left: 200px;
 }
 
 section h4 {
@@ -73,5 +75,41 @@ section p {
 section a {
     color: white;
     text-decoration: none;
+}
+
+.formulario {
+    display: grid;
+    margin-left: 900px;
+    margin-top: 150px;
+}
+
+.formulario h3 {
+    margin-bottom: 30px;
+}
+
+.formulario input {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+    background-color: rgb(240, 237, 237);
+}
+
+.formulario textarea {
+    width: 300px;
+    height: 100px;
+    margin-bottom: 15px;
+    background-color: rgb(240, 237, 237);
+}
+
+.formulario button {
+    width: 100px;
+    height: 30px;
+    background-color: #61090E;
+    color: white;
+}
+
+.formulario button:hover {
+    background-color: #3b070a;
+    cursor: pointer;
 }
 
