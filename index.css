@@ -99,8 +99,7 @@ nav {
     z-index: 1;
     color: white;
     background-color: #130D0A;
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 35px;
     opacity: 0;
     transition: opacity 0.3s ease;
     display: grid;
