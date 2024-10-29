@@ -110,17 +110,65 @@ nav {
     opacity: 0.7;
 }
 
-.avaliacao img{
-    width:auto;
-    height:38.92vw;
-    padding-top: 50px;
-    padding-bottom: 20px;
+.testemonials{
+    height: fit-content;
+    padding: 50px 0;
+    background-color: #130D0A;
+    color: #FFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.testemonial-card{
+    width: 280px;
+    height: 320px;
+    padding: 20px;
+}
+
+.testemonial-card .card-header, 
+.testemonial-card .address,
+.testemonial-card .add-info {
+    display: flex;
+    align-items: center;
+}
+
+.testemonial-card .card-header{
+    justify-content: space-between;
+}
+
+.testemonial-card h4{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.testemonial-card .address{
+    margin-top: 8px;
+}
+
+.testemonial-card .address p{
+    font-size: 14px;
+}
+
+.testemonial-card .address img{
+    width: 16px;
+    margin-right: 8px;
+}
+
+.testemonial-card .add-info{
+    justify-content: space-between;
+    margin: 28px 0;
+}
+
+.testemonial-card .review{
+    text-align: justify;
 }
 
 .parcerias{
     text-align: center;
     padding-top: 24px;
     padding-bottom: 40px;
+    max-width: 100%;
 }
 
 .parcerias h1{
@@ -130,6 +178,10 @@ nav {
     font-style: normal;
     padding-left: 6%;
     padding-bottom: 20px;
+}
+
+.parcerias img{
+    width: 100%;
 }
 
 footer {
