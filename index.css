@@ -164,24 +164,10 @@ nav {
     text-align: justify;
 }
 
-.parcerias{
-    text-align: center;
-    padding-top: 24px;
-    padding-bottom: 40px;
-    max-width: 100%;
-}
-
-.parcerias h1{
-    text-align: left;
-    font-family: "LibreBaskerville", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    padding-left: 6%;
-    padding-bottom: 20px;
-}
-
-.parcerias img{
-    width: 100%;
+.partners-title{
+    color: #130D0A;
+    padding: 50px 70px;
+    font-size: 38px;
 }
 
 footer {
