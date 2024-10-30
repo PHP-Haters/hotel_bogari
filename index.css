@@ -166,8 +166,20 @@ nav {
 
 .partners-title{
     color: #130D0A;
-    padding: 50px 70px;
+    padding: 50px 70px 15px 70px;
     font-size: 38px;
+}
+
+.partners{
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.partners img{
+    width: 170px;
 }
 
 footer {
