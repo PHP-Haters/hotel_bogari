@@ -54,7 +54,13 @@
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-
+.descricao {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    background-color: #61090E;
+    color: white;
+}
 
 
 footer {
