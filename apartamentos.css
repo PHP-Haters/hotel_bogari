@@ -1,0 +1,55 @@
+.headerBackImg{
+    width: 100%;
+    height: 900px;
+    top: 0;
+    filter:brightness(60%);
+    z-index: 1;
+    object-fit: cover;
+    object-position: 20%;
+}
+
+.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 350px;
+    margin-top: 340px;
+    width: 50%;
+    z-index: 2;
+}
+
+.menu{
+    padding: 20px 0;
+    z-index: 3;
+}
+
+.menu a{
+    font-size: 20px;
+    text-decoration:none;
+    color: white;
+    padding: 15px 50px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+}
+.dropdown-content a {
+    color: gray;
+    display: block;
+}
+.dropdown-content a:hover {
+    text-decoration: white underline;
+}
+.dropdown:hover .dropdown-content {
+    background-color: rgba(0, 0, 0, 0.3);
+    display: block;
+}
+.dropdown:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
