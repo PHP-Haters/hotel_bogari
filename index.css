@@ -30,30 +30,6 @@
     padding: 15px 50px;
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #000000;
-}
-.dropdown-content a {
-    color: gray;
-    display: block;
-}
-.dropdown-content a:hover {
-    text-decoration: white underline;
-}
-.dropdown:hover .dropdown-content {
-    background-color: rgba(0, 0, 0, 0.3);
-    display: block;
-}
-.dropdown:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
 .label{
     display: flex;
     justify-content: center;
