@@ -8,16 +8,6 @@
     object-position: 20%;
 }
 
-.logo{
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-left: 350px;
-    margin-top: 340px;
-    width: 50%;
-    z-index: 2;
-}
-
 .menu{
     padding: 20px 0;
     z-index: 3;
@@ -60,33 +50,4 @@
     padding: 25px;
     background-color: #61090E;
     color: white;
-}
-
-
-footer {
-    height: 250px;
-    width: 100%;
-    background-color: #130D0A;
-    color: white;
-    display: flex; 
-    justify-content: center;
-}
-
-footer div {
-    padding: 50px;
-    margin-right: 50px;
-}
-
-footer h4 {
-    margin-bottom: 20px;
-}
-
-footer p {
-    margin-bottom: 15px;
-    font-size: 15px;
-}
-
-footer a {
-    color: white;
-    text-decoration: none;
 }

@@ -22,13 +22,12 @@ nav {
 .dropdown {
     position: relative;
     display: inline-block;
+    transition: background 0.7s ease;
 }
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #000000;
-    opacity: 1;
-    
 }
 .dropdown-content a {
     color: gray;
@@ -44,10 +43,61 @@ nav {
     display: block;
     width: 100%;
     height: 160px;
-    transition: background 0.7s ease;
+    transition: background 0.6s ease;
 }
 .dropdown:hover {
     background-color: rgba(0, 0, 0, 0.3);
     opacity: 1;
     transition: background 0.4s ease;
+}
+
+
+footer {
+    height: 250px;
+    width: 100%;
+    background-color: #130D0A;
+    color: white;
+    display: flex; 
+    justify-content: center;
+}
+
+footer div {
+    padding: 50px;
+    margin-right: 50px;
+}
+
+footer h4 {
+    margin-bottom: 20px;
+}
+
+footer p {
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.contatosFooter img {
+    position: absolute;
+    height: 20px;
+}
+
+.contatosFooter p {
+    margin-left: 30px;
+}
+
+.adressFooter img {
+    position: absolute;
+    height: 20px;
+}
+
+.adressLinha1 {
+    margin-left: 30px;
+}
+
+.socialFooter h4 {
+    margin-left: 10px;
 }
