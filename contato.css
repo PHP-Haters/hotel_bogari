@@ -58,6 +58,9 @@ section a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 10%;
 }
 
 .formulario h3{
