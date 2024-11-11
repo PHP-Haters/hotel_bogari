@@ -1,0 +1,29 @@
+.headerBackImg{
+    width: 100%;
+    height: 900px;
+    top: 0;
+    filter:brightness(60%);
+    z-index: 1;
+    object-fit: cover;
+    object-position: 20%;
+}
+
+section {
+    display: flex;
+    margin: 70px;
+}
+
+.texto {
+    width: 50%;
+    padding: 40px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.image {
+    padding: 18px;
+}
+
+.imgs-cafedamanha {
+    width: 600px;
+}
