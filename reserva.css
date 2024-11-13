@@ -1,0 +1,43 @@
+header {
+    background-color: #61090E;
+    width: 100%;
+    height: 100px;
+}
+
+.menu{
+    padding: 20px 0;
+    z-index: 3;
+}
+
+.menu a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 50px;
+}
+#info-reserva {
+    background-color: #61090E;
+    width: 75%;
+    margin: 100px;
+    color: rgb(255, 255, 255);
+}
+
+.info-label-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.label-info {
+    font-size: 20px;
+}
+.info-input-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;    
+}
+.input-info {
+    
+}
+.select-info {
+    width: 100px;
+}
