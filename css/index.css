@@ -1,4 +1,4 @@
-.headerBackImg{
+.headerBackImg {
     width: 100%;
     height: 900px;
     top: 0;
@@ -8,53 +8,17 @@
     object-position: 20%;
 }
 
-.logo{
+.logo {
     position: absolute;
     top: 0;
     left: 0;
-    margin-left: 350px;
-    margin-top: 340px;
-    width: 50%;
+    margin-left: 458px;
+    margin-top: 170px;
+    width: 42%;
     z-index: 2;
 }
 
-.menu{
-    padding: 20px 0;
-    z-index: 3;
-}
-
-.menu a{
-    font-size: 20px;
-    text-decoration:none;
-    color: white;
-    padding: 15px 50px;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #000000;
-}
-.dropdown-content a {
-    color: gray;
-    display: block;
-}
-.dropdown-content a:hover {
-    text-decoration: white underline;
-}
-.dropdown:hover .dropdown-content {
-    background-color: rgba(0, 0, 0, 0.3);
-    display: block;
-}
-.dropdown:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-.label{
+.label {
     display: flex;
     justify-content: center;
     font-size: 12px;
@@ -74,24 +38,24 @@
     width: 100%;
 }
 
-.image-holder{
+.image-holder {
     position: relative;
 }
 
 .images1 .image-holder, .images2 .image-holder {
     width: 50%;
-    height: 450px;
+    height: 500px;
     object-fit: cover;
     object-position: 20%;
     transition: opacity 0.3s ease;
 }
 
-.image-holder img{
+.image-holder img {
     width: 100%;
     height: 100%;
 }
 
-.image-holder a{
+.image-holder a {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -109,11 +73,11 @@
     place-items: center;
 }
 
-.image-holder a:hover{
+.image-holder a:hover {
     opacity: 0.7;
 }
 
-.testemonials{
+.testemonials {
     height: fit-content;
     padding: 50px 0;
     background-color: #130D0A;
@@ -123,7 +87,7 @@
     align-items: center;
 }
 
-.testemonial-card{
+.testemonial-card {
     width: 280px;
     height: 320px;
     padding: 20px;
@@ -136,44 +100,44 @@
     align-items: center;
 }
 
-.testemonial-card .card-header{
+.testemonial-card .card-header {
     justify-content: space-between;
 }
 
-.testemonial-card h4{
+.testemonial-card h4 {
     font-weight: 600;
     font-size: 18px;
 }
 
-.testemonial-card .address{
+.testemonial-card .address {
     margin-top: 8px;
 }
 
-.testemonial-card .address p{
+.testemonial-card .address p {
     font-size: 14px;
 }
 
-.testemonial-card .address img{
+.testemonial-card .address img {
     width: 16px;
     margin-right: 8px;
 }
 
-.testemonial-card .add-info{
+.testemonial-card .add-info {
     justify-content: space-between;
     margin: 28px 0;
 }
 
-.testemonial-card .review{
+.testemonial-card .review {
     text-align: justify;
 }
 
-.partners-title{
+.partners-title {
     color: #130D0A;
     padding: 50px 70px 15px 70px;
     font-size: 38px;
 }
 
-.partners{
+.partners {
     padding: 0 50px;
     display: flex;
     align-items: center;
@@ -181,34 +145,6 @@
     margin-bottom: 70px;
 }
 
-.partners img{
+.partners img {
     width: 170px;
-}
-
-footer {
-    height: 250px;
-    width: 100%;
-    background-color: #130D0A;
-    color: white;
-    display: flex; 
-    justify-content: center;
-}
-
-footer div {
-    padding: 50px;
-    margin-right: 50px;
-}
-
-footer h4 {
-    margin-bottom: 20px;
-}
-
-footer p {
-    margin-bottom: 15px;
-    font-size: 15px;
-}
-
-footer a {
-    color: white;
-    text-decoration: none;
 }

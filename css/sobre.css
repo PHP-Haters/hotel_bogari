@@ -8,18 +8,6 @@
     object-position: 20%;
 }
 
-.menu{
-    padding: 20px 0;
-    z-index: 3;
-}
-
-.menu a {
-    font-size: 20px;
-    text-decoration:none;
-    color: white;
-    padding: 15px 50px;
-}
-
 section {
     display: flex;
     margin: 70px;
@@ -55,33 +43,4 @@ section {
     padding-top: 20px;
     padding-bottom: 80px;
 }
-
-footer {
-    height: 250px;
-    width: 100%;
-    background-color: #130D0A;
-    color: white;
-    display: flex; 
-    justify-content: center;
-}
-
-footer div {
-    padding: 50px;
-    margin-right: 50px;
-}
-
-footer h4 {
-    margin-bottom: 20px;
-}
-
-footer p {
-    margin-bottom: 15px;
-    font-size: 15px;
-}
-
-footer a {
-    color: white;
-    text-decoration: none;
-}
-
 

@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 5;
+    right: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.menu {
+    padding: 20px 0;
+    z-index: 3;
+    background-image: linear-gradient(rgb(13, 2, 2, 0.8), rgba(0, 0, 0, 0));
+}
+
+.menu a{
+    font-size: 20px;
+    text-decoration:none;
+    color: white;
+    padding: 15px 50px;
+}
+
+.menu a:hover {
+    opacity: 0.8;
+    transform: scale(1.02);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    transition: background 0.3s ease;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+}
+.dropdown-content a {
+    color: gray;
+    display: block;
+}
+.dropdown-content a:hover {
+    text-decoration: rgba(224, 221, 12, 0.719) underline;
+    color: rgb(201, 201, 201);
+    transform: scale(1.04);
+}
+.dropdown:hover .dropdown-content {
+    background-color: rgba(0, 0, 0, 0.3);
+    display: block;
+    width: 100%;
+    height: 160px;
+}
+.dropdown:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 1;
+    transition: background 0.3s ease;
+}
+
+
+footer {
+    height: 250px;
+    width: 100%;
+    background-color: #130D0A;
+    color: white;
+    display: flex; 
+    justify-content: center;
+}
+
+footer div {
+    padding: 50px;
+    margin-right: 50px;
+}
+
+footer h4 {
+    margin-bottom: 20px;
+}
+
+footer p {
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.contatosFooter img {
+    position: absolute;
+    height: 20px;
+}
+
+.contatosFooter p {
+    margin-left: 30px;
+}
+
+.adressFooter img {
+    position: absolute;
+    height: 20px;
+}
+
+.adressLinha1 {
+    margin-left: 30px;
+}
+
+.socialFooter h4 {
+    margin-left: 10px;
+}
