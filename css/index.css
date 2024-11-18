@@ -9,11 +9,11 @@
 }
 
 .logo {
+    width: 30vw !important;
+    height: auto;
     position: absolute;
-    top: 0;
-    left: 0;
-    margin-left: 458px;
-    margin-top: 170px;
+    top: 250px;
+    left: 35%;
     width: 42%;
     z-index: 2;
 }
@@ -93,7 +93,7 @@
     padding: 20px;
 }
 
-.testemonial-card .card-header, 
+.testemonial-card .card-header,
 .testemonial-card .address,
 .testemonial-card .add-info {
     display: flex;
