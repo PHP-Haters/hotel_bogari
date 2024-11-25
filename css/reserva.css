@@ -1,6 +1,7 @@
 body {
     background-color: #F4F0F0;
 }
+
 header {
     background-color: #61090E;
     width: 100%;
@@ -9,7 +10,7 @@ header {
 
 .menu{
     padding: 20px 0;
-    z-index: 3;
+    background-image: none !important;
 }
 
 .menu a{
