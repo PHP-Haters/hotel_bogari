@@ -4,6 +4,10 @@ header {
     height: 100px;
 }
 
+.menu{
+    background-image: none !important;
+}
+
 .logo-section {
     height: 380px;
     margin: 50px 0;
