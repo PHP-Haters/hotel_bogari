@@ -8,31 +8,46 @@ header {
     background-image: none !important;
 }
 
+#info-holder{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #info-reserva {
     background-color: #61090E;
     width: 75%;
-    margin: 100px;
+    height: 140px;
+    padding: 0 50px;
     color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.info-label-container {
+.form-cell{
+    width: 15%;
+    height: 100%;
+    padding: 25px 0;
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: space-around;
-    flex-wrap: wrap;
 }
-.label-info {
-    font-size: 20px;
-}
-.info-input-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.input-info {
 
+.form-cell label{
+    font-weight: 600;
+    font-size: 18px;
 }
-.select-info {
-    width: 100px;
+
+.form-cell input, .form-cell select{
+    width: 190px;
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    background-color: #FFFFFF;
 }
 
 #apartamentos {
