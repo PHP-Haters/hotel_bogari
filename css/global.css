@@ -11,8 +11,7 @@
 header{
     position: relative;
     width: 100%;
-    height: 90vh; /* O header terá 100% da altura da tela */
-    overflow: hidden;
+    height: 90vh;
 }
 
 nav {
