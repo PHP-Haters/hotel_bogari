@@ -87,6 +87,20 @@ nav {
     opacity: 70%;
 }
 
+.page-title{
+    width: 700px;
+    font-size: calc(45px + 2vw);
+    color: #FFF;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 footer {
     height: 250px;
     width: 100%;

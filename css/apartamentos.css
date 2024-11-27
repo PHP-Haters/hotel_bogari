@@ -8,10 +8,6 @@
     object-position: 20%;
 }
 
-.menu{
-    padding: 20px 0;
-}
-
 .descricao {
     display: flex;
     justify-content: center;

@@ -1,13 +1,3 @@
-.page-title{
-    width: 20vw;
-    font-size: 6.5vw;
-    color: #FFF;
-    position: absolute;
-    top: 38%;
-    left: 40vw;
-    z-index: 2;
-}
-
 .headerBackImg{
     width: 100%;
     height: 900px;
